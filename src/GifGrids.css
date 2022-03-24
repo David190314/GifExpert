@@ -1,25 +1,29 @@
-.card{
-    align-content: center;
-    border: 1px solid gray;
-    border-radius: 6px;
-    overflow: hidden;
-    margin: 5px;
-
+.card {
+  align-content: center;
+  border: 2px solid whitesmoke;
+  border-radius: 6px;
+  margin: 5px;
+  width: 300px;
+  max-width: 420px;
 }
-
+h1, label, h3 {
+    color: white;
+}
 .card p {
-    color: #8b4513;
-    width: 150px;
-    text-align: center;
+  padding: 10px 0;
+  color: white;
+  width: inherit;
+  text-align: center;
 }
 
 .card img {
-    height: 170px;
-    width: 150px;
+  height: 270px;
+  width: inherit;
 }
 
-.cardGrid{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.cardGrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
